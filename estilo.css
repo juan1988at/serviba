@@ -1,0 +1,340 @@
+
+*{color:black;
+}
+p{color:rgb(55, 19, 214);
+    font-size: 15px;
+}
+h2{color:#e1dfeb;
+    text-align: center;
+    min-height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url();background-color:black;
+}
+
+/*selector de clase*/
+.color-principal{
+    color:rgb(58, 14, 218);
+}
+/*selector de id*/
+#color-principal{
+    color: blue;
+}
+/*selector descendiente*/
+div p {
+    color: rgb(214, 89, 16);
+}
+
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+/* EL ENCABEZADO*/
+ header{
+     background-color: white ;
+     min-height: 80px;
+     padding-top: 15px;
+     overflow: hidden;
+     
+     
+ }
+.contenedor-flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.contenedor-flex-1 ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenedor-flex-1 li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.contenedor-flex-1 li a {
+    text-decoration: none;
+    color: rgb(223, 130, 9);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:1.7em ;
+    font-weight: bold;
+}
+
+#banner {
+    min-height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url();
+    background-color:black;
+}
+
+#banner h1 {
+    font-size: 4.5em;
+    color:white;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    transform: scale(1, 1.1);
+
+}
+.ancho-contenido-banner{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.ancho-contenido-banner p {
+    color:yellow;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+
+.cuota {
+    background-color:#212121;
+    min-height: 5px;
+    padding: 1px;
+    
+    font-style: italic;
+    font-family: palatino, georgia, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuota span{
+    font-size: 2.0em;
+    padding-right: 2px;
+    color: white;
+}
+#banner a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: thistle;
+    font-size: 1.9em;
+    background-color:#B7905A;
+    border-radius: 16px;
+    padding: 5px 12px;
+}
+.cuota a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: thistle;
+    font-size: 1.9em;
+    background-color:#B7905A;
+    border-radius: 16px;
+    padding: 5px 12px;
+}
+.cuota h1{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: thistle;
+    font-size: 1.9em;
+    
+    border-radius: 16px;
+    
+}
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+/*NOSOTROS*/
+.seccion-nosotros-1{
+    text-align: center;
+    width: 100%;
+    background-color: #B7905A;
+   
+}
+.seccion-nosotros-1 span{
+    color: bisque;
+    font-size: 30px;
+   
+    padding: 5px 10px 5px 10px;
+}
+.seccion-nosotros-2{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 4% auto;
+
+}
+.seccion-nosotros-2{
+    font-size: 30px;
+    font-style: italic;
+    font-family: palatino, georgia, serif;
+
+}
+
+.grid{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows:auto ;
+    grid-template-columns:60% 40%;
+    grid-template-areas:
+    "nosotros equipo"
+    "mision equipo"
+    "vision equipo";
+}
+.nosotros{
+    grid-area: nosotros;
+
+}
+.mision{
+    grid-area: mision;
+
+}
+.vision{
+    grid-area: vision;
+
+}
+.equipo{
+    grid-area: equipo;
+    background: url(medellll.jpg);
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.grid p{
+    padding: 10px;
+    font-size: 1.2em;
+    color: black;
+
+}
+.grid h1{
+    font-size:2.5em ;
+
+}
+.espacio-nosotros{
+    margin-bottom: 5px;
+}
+/*contacto*/
+
+.contenedor-formulario{
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    background-color: black;
+    padding-top: 20px;
+}
+.contenedor-formulario h3{
+    color:rgb(240, 186, 11);
+    font-size: 1.7em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.formulario{
+    text-align: center;
+}
+.formulario > div {
+    padding: 20px;
+}
+.formulario input, textarea{
+    font-size: 1.5em;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton{
+    color: burlywood;
+    background-color: #B7905A;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.0em;
+    cursor: pointer;
+    padding: 5px 50px ;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.espacio-seccion{
+    min-height: 75vh;
+    margin-bottom: 7%;
+}
+/*MEDIA QUERIES*/
+@MEDIA(max-width:768px){
+    .contenedor-flex-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .equipo{
+        display: none;
+}
+.grid{
+     display: grid;
+    grid-template-rows:auto ;
+    grid-template-columns:100%;
+    grid-template-areas:
+    "nosotros"
+    "mision"
+    "vision";
+}
+.contenedor-formulario{
+    width: 75%;
+}
+.boton{
+    font-size: 1.5em;
+    padding: 5px 30px;
+}
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgba(240, 132, 9, 0.842);
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+d-flex{
+    color: burlywood;
+    background-color: #B7905A;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.0em;
+    cursor: pointer;
+    padding: 5px 50px ;
+    margin-bottom: 10px;
+}
+form #search {
+	-webkit-appearance: none;
+	height: 35px;
+	width: 0;
+	position: absolute;
+	padding: 0;
+	opacity: 0;
+	border: none;
+	outline: none;
+	position: absolute;
+	right: 35px;
+	box-shadow:
+		0px 5px #bbb,
+		0px 8px 10px rgba(0, 0, 0, 0.5);
+}
